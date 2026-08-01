@@ -24,7 +24,7 @@
 Maintaining the perfect microclimate for a bioactive terrarium requires constant vigilance. This project eliminates manual watering and monitoring by creating a **closed-loop feedback system**.
 Powered by an ESP32-S3, the system constantly polls ambient temperature, humidity, and soil moisture. Using hysteresis logic, it intelligently triggers an isolated water pump to maintain the exact moisture threshold required by the ecosystem, while streaming real-time telemetry to a cloud dashboard.
 ## ✨ Features
- * 🌡️ **Precision Monitoring:** Real-time logging of Ambient Temp (^\circC) and Humidity (%) via the DHT22.
+ * 🌡️ **Precision Monitoring:** Real-time logging of Ambient Temp (^°C) and Humidity (%) via the DHT22.
  * 💧 **Capacitive Soil Sensing:** Anti-corrosion analog moisture reading mapped to accurate relative percentages.
  * 🔄 **Hysteresis Irrigation:** Intelligent pump control prevents "fluttering" by using distinct Turn-On (30%) and Turn-Off (50%) bounds.
  * 🛡️ **Hardware Fail-Safes:** Hardcoded maximum continuous pump runtime (10s) prevents catastrophic flooding during a sensor failure.
